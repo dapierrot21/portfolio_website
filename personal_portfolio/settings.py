@@ -56,6 +56,7 @@ ROOT_URLCONF = 'personal_portfolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        # Telling Django these styles exist.
         'DIRS': ["personal_portfolio/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
